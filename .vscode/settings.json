@@ -16,4 +16,5 @@
     "**/dist": true,
   },
   "git.ignoreLimitWarning": true,
+  "editor.fontFamily": "Consolas, 'Noto Sans CJK SC Regular', 'Courier New', monospace",
 }
