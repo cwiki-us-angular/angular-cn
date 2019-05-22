@@ -13,6 +13,7 @@ pubspec.lock
 .idea/
 .settings/
 .vscode/launch.json
+*.code-workspace
 *.swo
 modules/.settings
 modules/.vscode
@@ -32,4 +33,9 @@ yarn-error.log
 
 # User specific bazel settings
 .bazelrc.user
+
+#Local config
+**/.firebase/
+**/.firebaserc
+
 
