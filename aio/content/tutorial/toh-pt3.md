@@ -40,7 +40,7 @@ The command scaffolds the following:
 
 * Creates a directory `src/app/hero-detail`.
 
-  创建目录 `src/app/hero-detail`。
+  创建一个目录 `src/app/hero-detail`。
 
 Inside that directory four files are generated:
 
@@ -211,7 +211,7 @@ The browser refreshes and the app starts working again as it did before.
 
 ## What changed?
 
-## 有哪些变化？
+## 修改了什么？
 
 As [before](tutorial/toh-pt2), whenever a user clicks on a hero name,
 the hero detail appears below the hero list.
