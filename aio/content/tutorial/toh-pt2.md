@@ -298,9 +298,9 @@ Binding expressions in the template that refer to properties of `selectedHero` &
 
 但模板中的绑定表达式引用了 `selectedHero` 的属性（表达式为 `{{selectedHero.name}}`），这必然会失败，因为你还没选过英雄呢。
 
-#### The fix
+#### The fix - hide empty details with _*ngIf_
 
-#### 修复
+#### 修复 - 使用 *ngIf 来隐藏空白的细节
 
 The component should only display the selected hero details if the `selectedHero` exists.
 
@@ -325,11 +325,15 @@ Don't forget the asterisk (*) in front of `ngIf`. It's a critical part of the sy
 
 After the browser refreshes, the list of names reappears.
 The details area is blank.
-Click a hero and its details appear.
+Click a hero in the list of heroes and its details appear.
+The app seems to be working again.
+The heroes appear in a list and details about the clicked hero appear at the bottom of the page.
 
 浏览器刷新之后，英雄名字的列表又出现了。
 详情部分仍然是空。
 点击一个英雄，它的详情就出现了。
+这个应用看起来又再次工作正常显示了。
+英雄显示在列表中，当你单击英雄的名字的时候，有关你单击英雄的详细信息就显示在页面的底部了。
 
 #### Why it works
 
